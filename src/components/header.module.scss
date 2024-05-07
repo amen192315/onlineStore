@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Intro", sans-serif;
+  }
+  
+  .container {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 15px;
+  }
+  
+  .header {
+    position: fixed;
+    background-color: #484283;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  .header .headerFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  .header .headerFlex ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    margin-top: 13px;
+  }
+  .header .headerFlex ul a{
+    padding-bottom: 5px;
+   
+  }
+  .header .headerFlex ul a:hover {
+    border-bottom:1px solid white ;
+  }
+  .header .headerFlex::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    bottom: -13px;
+  }
+  .header .headerFlex a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .headerSect {
+    padding-top: 170px;
+    background-color: #484283;
+    padding-bottom: 130px;
+  }
+  .headerSect .headerSectionBg {
+    position: absolute;
+    left: 52%;
+    top: 35%;
+    z-index: 0;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: "Intro", sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 200px;
+    color: rgba(255, 255, 255, 0.12);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .headerSect .title {
+    font-size: 36px;
+    color: white;
+    max-width: 580px;
+    margin-bottom: 45px;
+  }
+  .headerSect .samTitle {
+    color: white;
+    max-width: 480px;
+    margin-bottom: 45px;
+  }
+  .headerSect .primaryBtn {
+    background-color: color;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #F14F4F;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+  }
+  
