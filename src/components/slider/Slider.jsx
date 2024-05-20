@@ -93,7 +93,7 @@ const Slider = ({slideData}) => {
                     <button>40</button>
                 </div>
                 <div className='modalPrice'>
-                    <h2>19 789 ₽</h2>
+                    <h2>11 000 ₽</h2>
                     <p>20 578 ₽</p>
                 </div>
                 <div className="modalBtn">
